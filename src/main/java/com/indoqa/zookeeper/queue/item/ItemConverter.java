@@ -18,10 +18,14 @@ package com.indoqa.zookeeper.queue.item;
 
 import java.nio.ByteBuffer;
 
-public class ItemConverter {
+public final class ItemConverter {
 
-    private static int VERSION_SIZE = 2;
-    private static int ERROR_COUNT_SIZE = 2;
+    private static final int VERSION_SIZE = 2;
+    private static final int ERROR_COUNT_SIZE = 2;
+
+    private ItemConverter() {
+        // hide utility class constructor
+    }
 
     public static Item deserializeItem(byte[] data) {
         ByteBuffer byteBuffer = ByteBuffer.wrap(data);

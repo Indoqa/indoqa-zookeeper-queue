@@ -22,7 +22,7 @@ import org.apache.zookeeper.KeeperException;
 
 import com.indoqa.zookeeper.queue.state.AbstractQueueZooKeeperState;
 
-public class InitialWriterQueueZookeeperState extends AbstractQueueZooKeeperState {
+public final class InitialWriterQueueZookeeperState extends AbstractQueueZooKeeperState {
 
     public static final InitialWriterQueueZookeeperState INITIAL_WRITER_STATE = new InitialWriterQueueZookeeperState();
 

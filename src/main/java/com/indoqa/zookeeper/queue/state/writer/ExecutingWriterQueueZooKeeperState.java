@@ -28,7 +28,7 @@ import com.indoqa.zookeeper.queue.item.Item;
 import com.indoqa.zookeeper.queue.item.ItemConverter;
 import com.indoqa.zookeeper.queue.state.AbstractQueueZooKeeperState;
 
-public class ExecutingWriterQueueZooKeeperState extends AbstractQueueZooKeeperState {
+public final class ExecutingWriterQueueZooKeeperState extends AbstractQueueZooKeeperState {
 
     public static final ExecutingWriterQueueZooKeeperState EXECUTING_WRITER_STATE = new ExecutingWriterQueueZooKeeperState();
 

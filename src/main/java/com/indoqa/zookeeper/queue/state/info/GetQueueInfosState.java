@@ -25,7 +25,7 @@ import org.apache.zookeeper.data.Stat;
 import com.indoqa.zookeeper.Execution;
 import com.indoqa.zookeeper.queue.state.AbstractQueueZooKeeperState;
 
-public class GetQueueInfosState extends AbstractQueueZooKeeperState {
+public final class GetQueueInfosState extends AbstractQueueZooKeeperState {
 
     public static final GetQueueInfosState GET_QUEUE_INFOS_STATE = new GetQueueInfosState();
 
