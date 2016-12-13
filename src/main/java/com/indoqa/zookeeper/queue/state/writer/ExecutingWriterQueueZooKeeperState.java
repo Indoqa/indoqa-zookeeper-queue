@@ -47,7 +47,7 @@ public final class ExecutingWriterQueueZooKeeperState extends AbstractQueueZooKe
     }
 
     public void addPayload(Object payload) {
-        this.logger.info("Inserting payload into local queue.");
+        this.logger.debug("Inserting payload into local queue.");
 
         Item item = this.createItem(payload);
         try {
