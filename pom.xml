@@ -26,7 +26,7 @@
   </parent>
 
   <artifactId>indoqa-zookeeper-queue</artifactId>
-  <version>3.6.2.0</version>
+  <version>3.6.2.1-SNAPSHOT</version>
 
   <name>Indoqa ZooKeeper Queue</name>
   <description>Reading properties for Spring from Apache ZooKeeper</description>
