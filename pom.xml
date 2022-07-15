@@ -26,7 +26,7 @@
   </parent>
 
   <artifactId>indoqa-zookeeper-queue</artifactId>
-  <version>3.6.2.1-SNAPSHOT</version>
+  <version>3.6.2.0</version>
 
   <name>Indoqa ZooKeeper Queue</name>
   <description>Reading properties for Spring from Apache ZooKeeper</description>
@@ -35,7 +35,7 @@
     <connection>scm:git:git@github.com:Indoqa/indoqa-zookeeper-queue.git</connection>
     <developerConnection>scm:git:git@github.com:Indoqa/indoqa-zookeeper-queue.git</developerConnection>
     <url>https://github.com/Indoqa/indoqa-zookeeper-queue</url>
-    <tag>HEAD</tag>
+    <tag>indoqa-zookeeper-queue-3.6.2.0</tag>
   </scm>
 
   <properties>
